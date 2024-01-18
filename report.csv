@@ -1,0 +1,33 @@
+CVE-2024-23301,0.0,Relax-and-Recover (aka ReaR) through 2.7 creates a world-readable initrd when using GRUB_RESCUE=y. This allows local attackers to gain access to system secrets otherwise only readable by root.
+CVE-2024-23179,0.0,"An issue was discovered in the GlobalBlocking extension in MediaWiki before 1.40.2. For a Special:GlobalBlock?uselang=x-xss URI, i18n-based XSS can occur via the parentheses message. This affects subtitle links in buildSubtitleLinks."
+CVE-2024-23178,0.0,An issue was discovered in the Phonos extension in MediaWiki before 1.40.2. PhonosButton.js allows i18n-based XSS via the phonos-purge-needed-error message.
+CVE-2024-23177,0.0,An issue was discovered in the WatchAnalytics extension in MediaWiki before 1.40.2. XSS can occur via the Special:PageStatistics page parameter.
+CVE-2024-23174,0.0,"An issue was discovered in the PageTriage extension in MediaWiki before 1.35.14, 1.36.x through 1.39.x before 1.39.6, and 1.40.x before 1.40.2. XSS can occur via the rev-deleted-user, pagetriage-tags-quickfilter-label, pagetriage-triage, pagetriage-filter-date-range-format-placeholder, pagetriage-filter-date-range-to, pagetriage-filter-date-range-from, pagetriage-filter-date-range-heading, pagetriage-filter-set-button, or pagetriage-filter-reset-button message."
+CVE-2024-23173,0.0,"An issue was discovered in the Cargo extension in MediaWiki before 1.35.14, 1.36.x through 1.39.x before 1.39.6, and 1.40.x before 1.40.2. The Special:Drilldown page allows XSS via artist, album, and position parameters because of applied filter values in drilldown/CargoAppliedFilter.php."
+CVE-2024-23172,0.0,"An issue was discovered in the CheckUser extension in MediaWiki before 1.35.14, 1.36.x through 1.39.x before 1.39.6, and 1.40.x before 1.40.2. XSS can occur via message definitions. e.g., in SpecialCheckUserLog."
+CVE-2024-23171,0.0,"An issue was discovered in the CampaignEvents extension in MediaWiki before 1.35.14, 1.36.x through 1.39.x before 1.39.6, and 1.40.x before 1.40.2. The Special:EventDetails page allows XSS via the x-xss language setting for internationalization (i18n)."
+CVE-2024-23061,0.0,TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the minute parameter in the setScheduleCfg function.
+CVE-2024-23060,0.0,TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the ip parameter in the setDmzCfg function.
+CVE-2024-23059,0.0,TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the username parameter in the setDdnsCfg function.
+CVE-2024-23058,0.0,TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the pass parameter in the setTr069Cfg function.
+CVE-2024-23057,0.0,TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the tz parameter in the setNtpCfg function.
+CVE-2024-22942,0.0,TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the hostName parameter in the setWanCfg function.
+CVE-2024-22916,0.0,"In D-LINK Go-RT-AC750 v101b03, the sprintf function in the sub_40E700 function within the cgibin is susceptible to stack overflow."
+CVE-2024-22715,0.0,Stupid Simple CMS <=1.2.4 was discovered to contain a Cross-Site Request Forgery (CSRF) via the component /admin-edit.php.
+CVE-2024-22714,0.0,Stupid Simple CMS <=1.2.4 is vulnerable to Cross Site Scripting (XSS) in the editing section of the article content.
+CVE-2024-22628,0.0,Budget and Expense Tracker System v1.0 is vulnerable to SQL Injection via /expense_budget/admin/?page=reports/budget&date_start=2023-12-28&date_end=
+CVE-2024-22627,0.0,Complete Supplier Management System v1.0 is vulnerable to SQL Injection via /Supply_Management_System/admin/edit_distributor.php?id=.
+CVE-2024-22626,0.0,Complete Supplier Management System v1.0 is vulnerable to SQL Injection via /Supply_Management_System/admin/edit_retailer.php?id=.
+CVE-2024-22625,0.0,Complete Supplier Management System v1.0 is vulnerable to SQL Injection via /Supply_Management_System/admin/edit_category.php?id=.
+CVE-2024-22494,0.0,"A stored XSS vulnerability exists in JFinalcms 5.0.0 via the /gusetbook/save mobile parameter, which allows remote attackers to inject arbitrary web script or HTML."
+CVE-2024-22493,0.0,"A stored XSS vulnerability exists in JFinalcms 5.0.0 via the /gusetbook/save content parameter, which allows remote attackers to inject arbitrary web script or HTML."
+CVE-2024-23525,0.0,The Spreadsheet::ParseXLSX package before 0.30 for Perl allows XXE attacks because it neglects to use the no_xxe option of XML::Twig.
+CVE-2024-23347,0.0,"Prior to v176, when opening a new project Meta Spark Studio would execute scripts defined inside of a package.json file included as part of that project. Those scripts would have the ability to execute arbitrary code on the system as the application."
+CVE-2024-23061,9.8,TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the minute parameter in the setScheduleCfg function.
+CVE-2024-23060,9.8,TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the ip parameter in the setDmzCfg function.
+CVE-2024-23059,9.8,TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the username parameter in the setDdnsCfg function.
+CVE-2024-23058,9.8,TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the pass parameter in the setTr069Cfg function.
+CVE-2024-23057,9.8,TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the tz parameter in the setNtpCfg function.
+CVE-2024-22942,9.8,TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the hostName parameter in the setWanCfg function.
+CVE-2024-22593,0.0,FlyCms v1.0 contains a Cross-Site Request Forgery (CSRF) vulnerability via /system/admin/add_group_save
+CVE-2024-22592,0.0,FlyCms v1.0 contains a Cross-Site Request Forgery (CSRF) vulnerability via /system/user/group_update

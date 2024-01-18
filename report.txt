@@ -1,0 +1,50 @@
+New CVEs as of 2024-01-18 07:58:28 -0800
+
+CVE-2024-23061
+SCORE: 9.8
+
+Description:
+TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the minute parameter in the setScheduleCfg function.
+
+CVE-2024-23060
+SCORE: 9.8
+
+Description:
+TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the ip parameter in the setDmzCfg function.
+
+CVE-2024-23059
+SCORE: 9.8
+
+Description:
+TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the username parameter in the setDdnsCfg function.
+
+CVE-2024-23058
+SCORE: 9.8
+
+Description:
+TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the pass parameter in the setTr069Cfg function.
+
+CVE-2024-23057
+SCORE: 9.8
+
+Description:
+TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the tz parameter in the setNtpCfg function.
+
+CVE-2024-22942
+SCORE: 9.8
+
+Description:
+TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the hostName parameter in the setWanCfg function.
+
+CVE-2024-22593
+SCORE: 0.0
+
+Description:
+FlyCms v1.0 contains a Cross-Site Request Forgery (CSRF) vulnerability via /system/admin/add_group_save
+
+CVE-2024-22592
+SCORE: 0.0
+
+Description:
+FlyCms v1.0 contains a Cross-Site Request Forgery (CSRF) vulnerability via /system/user/group_update
+

@@ -1,2 +1,2 @@
 # CVEScrapper
-Pull latest CVEs and make simple report.
+Pull latest CVEs from www.cvedetails.com and make simple report.

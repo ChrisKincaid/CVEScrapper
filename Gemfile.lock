@@ -1,0 +1,35 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    csv (3.2.8)
+    date (3.3.4)
+    mail (2.8.1)
+      mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
+    mini_mime (1.1.5)
+    net-imap (0.4.9.1)
+      date
+      net-protocol
+    net-pop (0.1.2)
+      net-protocol
+    net-protocol (0.2.2)
+      timeout
+    net-smtp (0.4.0.1)
+      net-protocol
+    nokogiri (1.16.0-x64-mingw-ucrt)
+      racc (~> 1.4)
+    racc (1.7.3)
+    timeout (0.4.1)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  csv
+  mail
+  nokogiri
+
+BUNDLED WITH
+   2.5.3
